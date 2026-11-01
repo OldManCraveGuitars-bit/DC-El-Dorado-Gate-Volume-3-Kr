@@ -4,7 +4,7 @@
     "before_bytes": 1369376,
     "after_bytes": 1369376,
     "before_sha256": "30d263deb7b88730f0e79c7459a8da058d34520b365f7f7ba09f291b4f228b36",
-    "after_sha256": "f121bed8e6ec5257bc63e4d75338ddf880268187fedb415d8c3a854076bc0a8d"
+    "after_sha256": "4ee7958a213bb48201d1c6ca314a1c9df99186f65f54a2ca85297cbf08eb441a"
   },
   {
     "file": "2_DP.BIN",
@@ -378,6 +378,20 @@
     "after_sha256": "b9d3e7bc6f2709d8cc3d60b2ba5e05e9f7c8bcd1893d6c1ecfa65b98086aace0"
   },
   {
+    "file": "SCEN00/RAZIN00.PAT",
+    "before_bytes": 2056,
+    "after_bytes": 2056,
+    "before_sha256": "20838138a844e612763fdb9da2b92ebfb8e283f358b06ede39e95729cb0fd8e1",
+    "after_sha256": "4b79cc0ab75b9e4551197a4f5dc5830935645842d67d14d44115fc23195b7033"
+  },
+  {
+    "file": "SCEN00/RAZIN00.TLP",
+    "before_bytes": 131072,
+    "after_bytes": 131072,
+    "before_sha256": "19bd3c97d92a862d1593016b8bb021a0e1e5924f2b2459bcc096a5542b1d8605",
+    "after_sha256": "b697314cb0f9c6b564f49a72ddcd03b8f13d3437578e88b2dc5fa7c6372414e8"
+  },
+  {
     "file": "SCEN01.OVL",
     "before_bytes": 114756,
     "after_bytes": 116169,
@@ -399,11 +413,53 @@
     "after_sha256": "19692058d7a6ca43b706fb0cef8a7bee021e49886ddc77bf80251e3a2da48d12"
   },
   {
+    "file": "SCEN01/PTSEL01.PAT",
+    "before_bytes": 2268,
+    "after_bytes": 2268,
+    "before_sha256": "7c720257b13a468e25b444097a3ffba20cfe9b86d83e82d8b01a0d84e7c74ba6",
+    "after_sha256": "214267fbb12917f7ccdf82a4a6945327cc630a6e54cc01d8fdb4825edfc1baaa"
+  },
+  {
+    "file": "SCEN01/PTSEL01.TLP",
+    "before_bytes": 71680,
+    "after_bytes": 71680,
+    "before_sha256": "504c3e7c6cf4acc5ddb4d253ae8423566c015685f0e392ea4aab4a15c06266ad",
+    "after_sha256": "6ed397e6d62c3de7281107d68e9e235e7821b42a530f300eae3e563818d103c7"
+  },
+  {
+    "file": "SCEN01/RAZIN01.PAT",
+    "before_bytes": 2048,
+    "after_bytes": 2048,
+    "before_sha256": "8d3d0a4805e5de214153cf39410a3f060c2c7f9758bf5217b2e6d7fcfd7e8dfb",
+    "after_sha256": "5d8cf884bdf837a389214dc5ed2ef3e035b2dccc1dbb5f49da486f9e594f15ad"
+  },
+  {
+    "file": "SCEN01/RAZIN01.TLP",
+    "before_bytes": 131072,
+    "after_bytes": 129024,
+    "before_sha256": "228ce1ce576342962a8cfae269d4b7b762087b36def40ce38ff02e85dbe4e543",
+    "after_sha256": "1eaad1728dccfcaa3c389ea22dbcb2b7ad85657016fe7a6ed5442fd3c5f5ba7c"
+  },
+  {
     "file": "SCEN03.OVL",
     "before_bytes": 15658,
     "after_bytes": 15864,
     "before_sha256": "79fbbe0b66ba9292bda5941d2b2bf0b7f052c409c099e3d5c40944bacbc09ac3",
     "after_sha256": "58e6c4987f24070b482640c62c9ed362697d6cbbb97bdd508a20594e25eafe49"
+  },
+  {
+    "file": "SCEN03/PTSEL03.PAT",
+    "before_bytes": 1520,
+    "after_bytes": 1520,
+    "before_sha256": "9f0855d021172ab89731c6e6b8ecdcd44b494fe12091d6c3ed25e781579b381f",
+    "after_sha256": "47ea33cf603a47f0db916826f58fbec19868225d989827f436d648edc4ed65d2"
+  },
+  {
+    "file": "SCEN03/PTSEL03.TLP",
+    "before_bytes": 63488,
+    "after_bytes": 63488,
+    "before_sha256": "4f7ddc32e07da2b66b3311487e0a8e78584c7f857110740e363ab6d578d9eeea",
+    "after_sha256": "5cb8fa77973670370cf806f22bf0833c644cf037f2ec884a53255fbaf49a23c7"
   },
   {
     "file": "SCEN04.OVL",
@@ -413,10 +469,38 @@
     "after_sha256": "b1fb275edb25801ed49bb3370d4cefbad3a9f557329ba4625e537b1d2e0af0d3"
   },
   {
+    "file": "SCEN04/PTSEL04.PAT",
+    "before_bytes": 1516,
+    "after_bytes": 1516,
+    "before_sha256": "c2aa56aa5f5305da324b616352b608680f14050341085cba8f583def90b31e1b",
+    "after_sha256": "f753ce33364d41ad1ef07698f96acbc205d8850e343e5615b271f7f044e0e454"
+  },
+  {
+    "file": "SCEN04/PTSEL04.TLP",
+    "before_bytes": 71680,
+    "after_bytes": 71680,
+    "before_sha256": "10ed01cd43da8ef5760ff900080922f046d172b049a2d8b9b63e0c6c879e881e",
+    "after_sha256": "abb3d2e1d25ae1c39a40444531ea6ac37eb2b2c0cfcb090aeaea8be8005f6a56"
+  },
+  {
     "file": "SCEN05.OVL",
     "before_bytes": 21365,
     "after_bytes": 21518,
     "before_sha256": "985936a41359b8971af1aa7502f95ac913649da7e17410bf1975394547f0c1dd",
     "after_sha256": "59d66ed8c69861b73715bb5d5774b6f64bc8e91397428db61ebc0329a59379b1"
+  },
+  {
+    "file": "SCEN05/PTSEL05.PAT",
+    "before_bytes": 1512,
+    "after_bytes": 1512,
+    "before_sha256": "c485ef45a7636287754a99362f91f7c016121f73d756bfd9b48eba06aa539379",
+    "after_sha256": "d7faf4cb397b4c37eade91f5dd4161d7e2e8c9744ec94dd8c09f4d8dc3aefd00"
+  },
+  {
+    "file": "SCEN05/PTSEL05.TLP",
+    "before_bytes": 71680,
+    "after_bytes": 71680,
+    "before_sha256": "dc62585981965780852f93ab029efc7fd277b61222089642683d321bd830bedb",
+    "after_sha256": "5244fc2ca1c4c14cf743e29c80973ce285e0d0c737b3b3088196cce5e57df27c"
   }
 ]

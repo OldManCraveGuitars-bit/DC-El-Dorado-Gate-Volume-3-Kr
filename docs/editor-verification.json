@@ -1,0 +1,84 @@
+{
+  "version": "0.1.12",
+  "executable_sha256": "d592b186d8011ccfd69df77b66d0e97a9bf747a692f18cd7a36b818e8518558b",
+  "model_integration_tests_passed": 19,
+  "frozen_UI": {
+    "success": true,
+    "tabs": 5,
+    "inventory": 17354,
+    "translations": 17200,
+    "images": 9614,
+    "text_search": true,
+    "banked_rlc_chapter_and_book_previews_verified": true,
+    "original_glyph_preview": true,
+    "korean_preview": true,
+    "image_comparison": true,
+    "browser_preview_verified": true,
+    "save_glyph_and_vmu_description_preview_verified": true,
+    "fixed_native_message_preview_and_single_space_preserved": true,
+    "extra_content_preview_and_picture_symbols_verified": true,
+    "native_font_size_and_status_badge_previews_verified": true,
+    "complete_ending_page_preview_verified": true,
+    "awakening_vertical_cards_and_native_anchors_verified": true,
+    "ASCII_exit_preview_and_fixed_width_guard_verified": true,
+    "movie_cues": 30,
+    "movie_frames": 2701,
+    "movie_caption_and_logo_preview_verified": true
+  },
+  "full_GDI_reproduction": {
+    "success": true,
+    "adjacent_vol1_absent": true,
+    "loose_tools_folder_absent": true,
+    "identical_asset_files": 72,
+    "translations": 17200,
+    "movie_cache_reused": true,
+    "full_gdi_build_verified": true,
+    "disc_worker_result": {
+      "success": true,
+      "result": {
+        "output": "20261101-010550-ff5f15",
+        "assets": "assets",
+        "translations": 17200,
+        "runtime_verified": false
+      }
+    },
+    "disc_verification": {
+      "files_verified": 923,
+      "changed_files": 72,
+      "original_files_preserved": 851,
+      "changed_sectors_verified": 15446,
+      "all_changed_sector_edc_ecc_valid": true,
+      "original_tracks_unchanged": true,
+      "output_track03_sha256": "4245c9fabe08089ce7836916f838949a80f091c2400226cf921e6b87d9c02c78",
+      "applied_translations": 17200,
+      "applied_by_storage": {
+        "native_text": 4973,
+        "extra_text": 338,
+        "fixed_item_name": 10941,
+        "fixed_enemy_name": 112,
+        "browser_text": 823,
+        "fixed_save_glyph": 3,
+        "fixed_vmu_metadata": 6,
+        "fixed_native_message": 4
+      },
+      "remaining_candidate_records": 154,
+      "remaining_status": {
+        "preserved_native_data": 144,
+        "preserved_browser_markup": 10
+      },
+      "protected_native_records_verified": 144,
+      "strict_source_native_records": 134,
+      "controlled_native_transform_records": 10,
+      "preserved_browser_nonlanguage_records": 10,
+      "untranslated_or_unreviewed_candidates": 0,
+      "complete_text_extraction_verified": false,
+      "full_playthrough_verified": false,
+      "runtime_verified": false
+    },
+    "identical_track03_to_latest": true,
+    "fixture_removed_after_verified_build": true,
+    "fixture_report_archive": "portable-fixture-reports.zip",
+    "fixture_report_archive_sha256": "5b8aba230276175fbdb9311f56bebd835222ae3cfbee29504b2550e43fa8bfb6"
+  },
+  "editor_project_not_in_public_patch_package": true
+}

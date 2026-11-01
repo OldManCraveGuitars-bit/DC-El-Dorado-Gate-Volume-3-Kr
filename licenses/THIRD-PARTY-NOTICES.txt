@@ -7,4 +7,4 @@ Original game, art, characters, names and trademarks belong to their respective 
 No original game image, BIOS, emulator, test input adapter or VMU save is distributed.
 Licenses are available through the patcher's license button and in the release ZIP.
 
-Project: https://github.com/OldManCraveGuitars-bit/El-Dorado-Gate-Volume-3-Kr
+Project: https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr

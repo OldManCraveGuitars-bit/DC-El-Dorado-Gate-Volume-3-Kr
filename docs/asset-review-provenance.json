@@ -1,5 +1,5 @@
 {
-  "public_version": "v0.85",
+  "public_version": "v0.9",
   "images": [
     {
       "file": "docs/images/chapter-font-v085.png",
@@ -21,6 +21,22 @@
       "original_emulator_framebuffer": false,
       "AI_generated": false,
       "kind": "native ROM asset enlarged review"
+    },
+    {
+      "file": "docs/images/awakening-v09.png",
+      "sha256": "f322d52923f553dec7ec479c807eeb6600859e2855fbe0076391bb0b831fbec6",
+      "original_emulator_framebuffer": false,
+      "AI_generated": false,
+      "kind": "native ROM asset comparison",
+      "description": "Japanese source and localized native pictures; not a runtime screenshot"
+    },
+    {
+      "file": "docs/images/party-select-v09.png",
+      "sha256": "6931d112b479e47a138bdc20a78267e6407f39c569e80c2ac2a99f573fa78a7b",
+      "original_emulator_framebuffer": false,
+      "AI_generated": false,
+      "kind": "native ROM asset comparison",
+      "description": "Japanese source and localized native pictures; not a runtime screenshot"
     }
   ],
   "chapter_comparison": {

@@ -13,7 +13,7 @@ $taskPatchHash = (Get-FileHash -LiteralPath $taskPatch -Algorithm SHA256).Hash.T
 if ($taskEngineHash -ne $taskManifest.xdelta.sha256) { throw 'Verified xdelta3 3.2.1 Windows x64 binary required' }
 if ($taskPatchHash -ne $taskManifest.patch.sha256) { throw 'Patch payload SHA-256 does not match hashes.json' }
 & $Python -m PyInstaller --noconfirm --clean --onefile --windowed `
-    --name ('El-Dorado-Gate-Volume-3-Kr-' + $taskManifest.version + '-Patcher') `
+    --name ('DC-El-Dorado-Gate-Volume-3-Kr-' + $taskManifest.version + '-Patcher') `
     --distpath (Join-Path $taskRepo 'dist') `
     --workpath (Join-Path $taskRepo 'build') `
     --specpath (Join-Path $taskRepo 'build') `

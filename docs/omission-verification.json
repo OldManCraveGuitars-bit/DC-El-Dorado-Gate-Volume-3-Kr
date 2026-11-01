@@ -1,0 +1,115 @@
+{
+  "public_version": "v0.9",
+  "success": true,
+  "internal_build": "v0.31",
+  "registered_text_rows": 17200,
+  "requested_synthesis_labels": {
+    "1ST_READ.BIN:0d2c96": "첫번째 무기",
+    "1ST_READ.BIN:0d2ca4": "두번째 무기",
+    "1ST_READ.BIN:0d2cb2": "첫번째 방어구",
+    "1ST_READ.BIN:0d2cc0": "두번째 방어구",
+    "1ST_READ.BIN:0d2cce": "합성결과"
+  },
+  "new_ASCII_exit": "나가기",
+  "native_strings_verified": 4973,
+  "native_pointers_verified": 5138,
+  "layout_errors": 0,
+  "original_Hangul_font_codes_and_pixels_preserved": 1043,
+  "awakening": [
+    {
+      "file": "SCEN00/RAZIN00.PAT",
+      "localized_frames": [
+        6,
+        7
+      ],
+      "animation_frames_preserved": 6,
+      "untouched_texture_banks": 17,
+      "all_coordinates_and_anchors_preserved": true,
+      "patched_sha256": "4b79cc0ab75b9e4551197a4f5dc5830935645842d67d14d44115fc23195b7033",
+      "texture_sha256": "b697314cb0f9c6b564f49a72ddcd03b8f13d3437578e88b2dc5fa7c6372414e8"
+    },
+    {
+      "file": "SCEN01/RAZIN01.PAT",
+      "localized_frames": [
+        6,
+        7
+      ],
+      "animation_frames_preserved": 6,
+      "untouched_texture_banks": 17,
+      "all_coordinates_and_anchors_preserved": true,
+      "patched_sha256": "5d8cf884bdf837a389214dc5ed2ef3e035b2dccc1dbb5f49da486f9e594f15ad",
+      "texture_sha256": "1eaad1728dccfcaa3c389ea22dbcb2b7ad85657016fe7a6ed5442fd3c5f5ba7c"
+    }
+  ],
+  "party_selection": [
+    {
+      "file": "SCEN01/PTSEL01.PAT",
+      "patterns_verified": 36,
+      "only_changed_frame": 0,
+      "changed_caption_box": [
+        270,
+        173,
+        293,
+        184
+      ],
+      "Vol1_reviewed_pixels_exact": true
+    },
+    {
+      "file": "SCEN03/PTSEL03.PAT",
+      "patterns_verified": 12,
+      "only_changed_frame": 0,
+      "changed_caption_box": [
+        270,
+        173,
+        293,
+        184
+      ],
+      "Vol1_reviewed_pixels_exact": true
+    },
+    {
+      "file": "SCEN04/PTSEL04.PAT",
+      "patterns_verified": 12,
+      "only_changed_frame": 0,
+      "changed_caption_box": [
+        270,
+        173,
+        293,
+        184
+      ],
+      "Vol1_reviewed_pixels_exact": true
+    },
+    {
+      "file": "SCEN05/PTSEL05.PAT",
+      "patterns_verified": 12,
+      "only_changed_frame": 0,
+      "changed_caption_box": [
+        270,
+        173,
+        293,
+        184
+      ],
+      "Vol1_reviewed_pixels_exact": true
+    }
+  ],
+  "newly_localized_pictures": 8,
+  "changed_assets_since_v085": [
+    "1ST_READ.BIN",
+    "SCEN00/RAZIN00.PAT",
+    "SCEN00/RAZIN00.TLP",
+    "SCEN01/PTSEL01.PAT",
+    "SCEN01/PTSEL01.TLP",
+    "SCEN01/RAZIN01.PAT",
+    "SCEN01/RAZIN01.TLP",
+    "SCEN03/PTSEL03.PAT",
+    "SCEN03/PTSEL03.TLP",
+    "SCEN04/PTSEL04.PAT",
+    "SCEN04/PTSEL04.TLP",
+    "SCEN05/PTSEL05.PAT",
+    "SCEN05/PTSEL05.TLP"
+  ],
+  "existing_patched_files_byte_identical": 59,
+  "original_tracks_unchanged": true,
+  "native_runtime_verified": false,
+  "full_playthrough_verified": false,
+  "track03_sha256": "4245c9fabe08089ce7836916f838949a80f091c2400226cf921e6b87d9c02c78"
+}

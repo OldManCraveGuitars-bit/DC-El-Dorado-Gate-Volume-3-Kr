@@ -1,13 +1,15 @@
 {
   "success": true,
-  "version": "v0.85",
-  "internal_build": "v0.30",
-  "executable_sha256": "90f15de0285e142e7a123a628c0d5ddf8797ca6fb364c8956516dd13dd95b81e",
-  "patch_sha256": "b0011bcff0c0fb73ccb0b2e251bb20d536957db77aa7f6ba254556faef801b7d",
-  "output_track03_sha256": "9ef09d7c76e9a898a02ba428a13889418f9c664c1bde25842608332b8f729334",
+  "version": "v0.9",
+  "internal_build": "v0.31",
+  "project_name": "DC-El-Dorado-Gate-Volume-3-Kr",
+  "executable_sha256": "ed42ca7818e88394ce442acc4bf5ba8f59f297aa5334b938080f76aba8ca5e0c",
+  "patch_sha256": "69ef13835f7e1ef2ce9048690d4f0266da6a1f9a4faf9220d3d42e039571ae77",
+  "output_track03_sha256": "4245c9fabe08089ce7836916f838949a80f091c2400226cf921e6b87d9c02c78",
   "original_tracks_untouched": true,
   "actual_EXE_output_matches_verified_GDI": true,
   "no_sidecar_payload_or_Python_tools_needed": true,
   "GUI_smoke_verified": true,
+  "published_to_GitHub": false,
   "original_or_completed_ROM_in_package": false
 }

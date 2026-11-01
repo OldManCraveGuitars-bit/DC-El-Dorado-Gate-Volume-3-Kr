@@ -1,0 +1,31 @@
+{
+  "cause": "32px PAT vertical dialogue images had been incorrectly classified as nonlanguage spirit art; four duplicate party-close captions were not included in prior Vol1 reuse; the native scanner excluded an ASCII-only EXIT label.",
+  "corrections": {
+    "awakening_vertical_pictures": 4,
+    "party_selection_pictures": 4,
+    "new_native_ASCII_menu": 1,
+    "requested_synthesis_labels": 5
+  },
+  "source_editor_images_scanned": 9610,
+  "separate_read_only_PAT_containers": 49,
+  "separate_read_only_PAT_patterns": 1035,
+  "independent_native_descriptors": 3921,
+  "unregistered_Japanese_descriptors_found": 0,
+  "Vol1_source_pixel_matches": 31,
+  "OCR_first_pass_images": 1057,
+  "OCR_expanded_images_including_controls": 1346,
+  "OCR_first_pass_limit": "Combined jpn+kor emitted a language-loading warning; used only to generate candidates, not as bilingual verification.",
+  "OCR_expanded_language": "jpn",
+  "OCR_limit": "Positive controls are recognized with low confidence; confidence filtering cannot prove there are no other omissions. Not every image or runtime scene was exhaustively OCR-verified.",
+  "indexed_wallpaper_limit": "Four unbound indexed PVRs remain without a verified palette binding; index-value previews show tiled title/decorative patterns and are not a full-colour decoding proof.",
+  "preserved_scope": [
+    "official third-party promotional title logos and copyrights",
+    "technical identifiers and expected abbreviations such as HP",
+    "statue/decorative glyph art and effects",
+    "unused source atlas tiles not referenced by localized panels"
+  ],
+  "all_image_formats_decoded": false,
+  "all_language_bearing_images_identified": false,
+  "native_runtime_verified": false,
+  "full_playthrough_verified": false
+}

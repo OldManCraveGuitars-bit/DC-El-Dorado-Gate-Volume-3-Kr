@@ -1,9 +1,9 @@
 {
-  "public_version": "v0.85",
-  "internal_build": "v0.30",
+  "public_version": "v0.9",
+  "internal_build": "v0.31",
   "status": "not_run_for_current_release",
   "current_release_cold_boot_verified": false,
-  "track03_sha256": "9ef09d7c76e9a898a02ba428a13889418f9c664c1bde25842608332b8f729334",
+  "track03_sha256": "4245c9fabe08089ce7836916f838949a80f091c2400226cf921e6b87d9c02c78",
   "current_EXE_original_GDI_apply_and_all_track_hashes_verified": true,
   "current_title_sprite_native_bytes_and_bounds_verified": true,
   "prior_v08_native_verification": {
@@ -26,5 +26,6 @@
     "native_ending_playback_verified": false,
     "full_playthrough_verified": false
   },
-  "full_playthrough_verified": false
+  "full_playthrough_verified": false,
+  "current_omission_images_native_bytes_and_bounds_verified": true
 }
