@@ -1,4 +1,4 @@
-# v0.9 SHA-256
+# v1.0 SHA-256
 
 원본: `Eldorado Gate Vol. 3 v1.001 (2000)(Capcom)(NTSC)(JP)[!]`. LBA: `0 / 600 / 45000`.
 
@@ -10,8 +10,8 @@
 
 GDI: `025516557d49e1835e7eb8571e09244b64db190cf3981ead555c54b1924ca19f`
 
-EXE: `ed42ca7818e88394ce442acc4bf5ba8f59f297aa5334b938080f76aba8ca5e0c`
+EXE: `36325bdf269b3d120c2a0ad795b547086009ff0286c996e78516b18bc1d96120`
 
 xdelta: `69ef13835f7e1ef2ce9048690d4f0266da6a1f9a4faf9220d3d42e039571ae77`
 
-ZIP 해시는 릴리스의 `SHA256SUMS-v0.9.txt`에 있습니다.
+ZIP 해시는 릴리스의 `SHA256SUMS-v1.0.txt`에 있습니다.

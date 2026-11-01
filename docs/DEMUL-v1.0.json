@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "public_version": "v1.0",
+  "internal_build": "v0.31",
+  "emulator": "DEmul 0.7 BUILD 280418",
+  "emulator_sha256": "f26586f626202e70e9bbb0e7271d4878d68b93ab69472a8727f95ba5199a2739",
+  "reused_same_Vol1_emulator_BIOS_plugins_and_settings": true,
+  "isolated_copy_used": true,
+  "Vol1_source_runtime_and_original_VMUs_preserved": true,
+  "plugins": [
+    {
+      "file": "demul.exe",
+      "sha256": "f26586f626202e70e9bbb0e7271d4878d68b93ab69472a8727f95ba5199a2739",
+      "identical_to_Vol1_test": true
+    },
+    {
+      "file": "plugins/gpuDX11.dll",
+      "sha256": "915972ab394a0bb1e6305b872eeeee21e351775436a5d4f162f8f03d02931821",
+      "identical_to_Vol1_test": true
+    },
+    {
+      "file": "plugins/gdrImage.dll",
+      "sha256": "49f86148a5dbdaaa37be6c848ab3c8e672551b8de6616acc55f23b8cc15832ee",
+      "identical_to_Vol1_test": true
+    },
+    {
+      "file": "plugins/padDemul.dll",
+      "sha256": "3847ee8955e2fc569c5339dc37b7832d989c4e860042ff6e14f9cb1d1826b51f",
+      "identical_to_Vol1_test": true
+    },
+    {
+      "file": "plugins/spuDemul.dll",
+      "sha256": "b1d83dddf1afb1db286355342613a1c24c8dc4524623f4730edf8a295070751d",
+      "identical_to_Vol1_test": true
+    }
+  ],
+  "region": 1,
+  "broadcast": 1,
+  "dream_BIOS_index": 5,
+  "CPU_mode": 1,
+  "graphics": "gpuDX11.dll",
+  "disc_image_plugin": "gdrImage.dll",
+  "system_ANSI_codepage": 949,
+  "original_Japanese_Vol3_boot_and_opening_observed": true,
+  "Korean_Vol3_boot_and_opening_subtitles_observed": true,
+  "Korean_title_and_menu_interaction_verified": false,
+  "user_confirmed_original_and_Korean_running": true,
+  "observed_FPS_display": "59-61 during captured native frames; not a performance benchmark",
+  "tested_original_track03_sha256": "ae452974db251a6ca20901c2fd1779f919e8ae157c3546284f9f0ad79baa365a",
+  "tested_Korean_track03_sha256": "4245c9fabe08089ce7836916f838949a80f091c2400226cf921e6b87d9c02c78",
+  "original_boot_file_extent_preserved": {
+    "file": "1ST_READ.BIN",
+    "lba": 548331,
+    "bytes": 1369376
+  },
+  "game_incompatibility_reproduced": false,
+  "game_data_changes_required": false,
+  "initial_test_setup_issue": "Launching without an explicit -image argument left this test at the emulator main window. Passing both -run=dc and -image=\"path/to/game.gdi\" started the original and Korean game.",
+  "capture_tool_issue": "Computer Use Windows.Graphics.Capture timed out. Evidence was captured with Pillow ImageGrab(window=hwnd), targeting only the Demul process client window.",
+  "evidence": [
+    {
+      "kind": "original_opening",
+      "sha256": "fd5958b513bdba83340cbe9fcca067c680c583a7061b65cfd73e53379a43e330",
+      "size": [
+        640,
+        480
+      ],
+      "window_title": "gpuDX11hw | FPS: 60 RPS: 60 | ELDORADO GATE VOL3",
+      "retouched": false
+    },
+    {
+      "kind": "Korean_opening_subtitles",
+      "sha256": "c412633957d26b72200f437f8fb8232af5e893bb6d6a23080261017916a80b28",
+      "size": [
+        640,
+        480
+      ],
+      "window_title": "gpuDX11hw | FPS: 61 RPS: 61 | ELDORADO GATE VOL3",
+      "retouched": false
+    }
+  ],
+  "source_ROM_modified": false,
+  "game_RAM_modified": false,
+  "full_playthrough_verified": false,
+  "real_hardware_verified": false,
+  "native_ending_playback_verified": false,
+  "current_release_game_data_byte_identical_to_tested_GDI": true
+}

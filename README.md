@@ -1,24 +1,24 @@
 # DC-El-Dorado-Gate-Volume-3-Kr
 
-**엘도라도 게이트 Vol.3 · 드림캐스트 한글 패치 v0.9**
+**엘도라도 게이트 Vol.3 · 비공식 한글화 1.0 정식 버전**
 
 일본판 **Vol.3 v1.001**용 한글 패치입니다. 대사·시스템·아이템·브라우저·오프닝·추가 콘텐츠를 번역하고,
 원래 다운로드 상품 **77종**을 오프라인에서 구매할 수 있도록 설정했습니다.
 Vol.1의 공통 번역·그림·글꼴·도구를 재사용하고 Vol.3 전용 문구와 화면 배치를 보완했습니다.
-공개 버전은 **v0.9**, 내부 검증 빌드는 **v0.31**입니다. 이전 로컬 v0.86과 같은 최종 게임 데이터입니다.
+공개 버전은 **v1.0**, 내부 검증 빌드는 **v0.31**입니다. v0.9의 게임 데이터를 유지하며 Demul에서 원본·한글판 부팅과 한글 오프닝 자막을 확인해 정식 배포합니다.
 기존 `El-Dorado-Gate-Volume-3-Kr` 저장소를 **DC-El-Dorado-Gate-Volume-3-Kr**로 변경했습니다.
 
 <img src="screenshots/title.png" width="640" alt="엘도라도 게이트 Vol.3 한글 타이틀">
 
 ## 다운로드
 
-**[v0.9 릴리스](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/tag/v0.9)**
+**[v1.0 릴리스](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/tag/v1.0)**
 
 | 파일 | 용도 |
 | --- | --- |
-| [DC-El-Dorado-Gate-Volume-3-Kr-v0.9-Patcher.exe](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v0.9/DC-El-Dorado-Gate-Volume-3-Kr-v0.9-Patcher.exe) | **Windows x64 단독 EXE 패처. 이 파일 하나로 적용할 수 있습니다.** |
-| [DC-El-Dorado-Gate-Volume-3-Kr-v0.9.zip](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v0.9/DC-El-Dorado-Gate-Volume-3-Kr-v0.9.zip) | EXE·설명·스크린샷·자산 비교·해시·라이선스·수동 적용용 xdelta |
-| [SHA256SUMS-v0.9.txt](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v0.9/SHA256SUMS-v0.9.txt) | EXE·ZIP·xdelta의 SHA-256 |
+| [DC-El-Dorado-Gate-Volume-3-Kr-v1.0-Patcher.exe](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v1.0/DC-El-Dorado-Gate-Volume-3-Kr-v1.0-Patcher.exe) | **Windows x64 단독 EXE 패처. 이 파일 하나로 적용할 수 있습니다.** |
+| [DC-El-Dorado-Gate-Volume-3-Kr-v1.0.zip](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v1.0/DC-El-Dorado-Gate-Volume-3-Kr-v1.0.zip) | EXE·설명·스크린샷·자산 비교·해시·라이선스·수동 적용용 xdelta |
+| [SHA256SUMS-v1.0.txt](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v1.0/SHA256SUMS-v1.0.txt) | EXE·ZIP·xdelta의 SHA-256 |
 
 패치 데이터·매니페스트·xdelta3 엔진·라이선스를 EXE 안에 내장했습니다.
 Python이나 별도 xdelta 설치는 필요하지 않습니다. 원본 게임 GDI와 세 트랙은 사용자가 준비합니다.
@@ -30,12 +30,30 @@ Python이나 별도 xdelta 설치는 필요하지 않습니다. 원본 게임 GD
 2. EXE를 실행해 원본 GDI를 선택합니다. GDI가 가리키는 세 트랙은 같은 폴더에 있어야 합니다.
 3. 약 1.3GB 이상의 여유 공간이 있는 **새 출력 폴더**를 지정합니다.
 4. **한글 패치 적용**을 누릅니다. 원본 해시 검사, 패치, 결과 해시 확인과 트랙 복사를 수행합니다.
-5. 새 폴더의 **`DC-El-Dorado-Gate-Volume-3-Kr-v0.9.gdi`**를 실행합니다. GDI와 세 트랙을 함께 유지하세요.
+5. 새 폴더의 **`DC-El-Dorado-Gate-Volume-3-Kr-v1.0.gdi`**를 실행합니다. GDI와 세 트랙을 함께 유지하세요.
 
 원본은 덮어쓰지 않으며 이미 존재하는 출력 폴더에는 적용하지 않습니다.
-이미 패치한 롬에 덧씌우는 업데이트가 아닙니다. v0.9도 **일본판 원본 GDI**에서 새로 적용하세요.
+이미 패치한 롬에 덧씌우는 업데이트가 아닙니다. v1.0도 **일본판 원본 GDI**에서 새로 적용하세요.
 
-## v0.9 변경 내용
+## 비공식 한글화 1.0 정식 버전
+
+- **Demul 실행 확인**: Vol.1을 실행했던 **DEmul 0.7 BUILD 280418 / gpuDX11 / gdrImage** 환경을 복사해 일본판 원본 Vol.3과 한글판을 비교했습니다. 원본 오프닝과 한글판 부팅·한글 오프닝 자막을 확인했고 사용자도 정상 실행을 확인했습니다.
+- **게임 데이터**: v0.9와 바이트까지 같으며 별도 롬 수정은 필요하지 않았습니다. 시작 파일의 원래 LBA 548331과 크기 1,369,376바이트를 유지합니다.
+- **실행 방법**: 이미지 플러그인에서 GDI를 선택해 실행하세요. 명령행에서는 `demul.exe -run=dc -image="C:\Games\Vol3\DC-El-Dorado-Gate-Volume-3-Kr-v1.0.gdi"`처럼 이미지 경로까지 명시합니다. 이번 초기 시험에서는 이미지 인수를 빠뜨린 상태가 Demul 기본 화면에 머물렀고 두 인수를 함께 전달하자 정상 실행됐습니다.
+- **배포 도구**: EXE 패처·Windows 파일 정보·내장 매니페스트·출력 GDI 이름·체크섬을 v1.0으로 갱신했습니다. 새 EXE의 원본 적용 결과와 세 트랙·GDI 전체 해시를 확인했습니다.
+- **검증 범위**: 이번 빠른 실행 확인은 부팅·한글 오프닝 재생 범위입니다. 타이틀·메뉴 조작, 각성 장면 재진행, 실기 구동, 7·8장과 엔딩까지의 완주는 포함하지 않습니다.
+
+여기서 **정식 버전**은 비공식 한글화 프로젝트의 배포 버전을 뜻합니다.
+
+| Demul 일본판 원본 오프닝 | Demul 한글판 오프닝 |
+| --- | --- |
+| <img src="screenshots/demul-original-v10.png" width="320" alt="Demul 일본판 원본 Vol.3"> | <img src="screenshots/demul-korean-opening-v10.png" width="320" alt="Demul 한글 오프닝"> |
+
+![Demul에서 재생한 한글 오프닝 자막](screenshots/demul-korean-opening-v10.png)
+
+[Demul 실행 검증](docs/DEMUL-v1.0.json) · [캡처 출처](docs/screenshot-provenance.json)
+
+## 포함된 누락·UI 수정 (v0.9에서 반영)
 
 - **카난·파멜라 각성 문구 4장**: 일반 문자열 목록에서 빠졌던 세로 PAT 그림을 한글화했습니다. Vol.1과 같은 바탕체를 사용하고 원래 좌표·타일 범위·기준점을 유지했습니다.
 - **석상 애니메이션 보존**: 두 컨테이너의 문구 프레임 6·7만 교체했습니다. 석상 애니메이션 12프레임과 각 컨테이너의 그림 뱅크 17개, 원래 좌표와 포인터 표를 유지했습니다.
@@ -43,7 +61,7 @@ Python이나 별도 xdelta 설치는 필요하지 않습니다. 원본 게임 GD
 - **옵션 종료 문구**: 기존 추출기가 빠뜨린 ASCII `EXIT`를 **나가기**로 바꿨습니다. 원래 네 칸의 폭을 검사합니다.
 - **합성 화면 표기**: **합성결과 / 첫번째 무기 / 두번째 무기 / 첫번째 방어구 / 두번째 방어구**로 통일했습니다.
 - **편집기 0.1.12**: 각성 그림의 원문·한글 비교, PNG 교체·저장·재빌드와 나가기 문구의 폭 검사를 지원합니다. 독립 EXE에서 동일한 최종 GDI를 재현했습니다.
-- **배포 이름 정리**: 저장소·패처 파일명·출력 GDI·Windows 버전 정보와 내장 매니페스트를 **DC-El-Dorado-Gate-Volume-3-Kr / v0.9**로 맞췄습니다.
+- **배포 이름 정리**: 저장소·패처 파일명·출력 GDI·Windows 버전 정보와 내장 매니페스트를 **DC-El-Dorado-Gate-Volume-3-Kr / v1.0**로 맞췄습니다.
 
 기존 패치 파일 **59개**와 한글 글꼴 **1,043칸**은 v0.85와 같습니다.
 새 그림 8장과 UI 표기 6개가 반영되어 등록된 번역은 **17,200개**입니다.
@@ -84,12 +102,11 @@ Python이나 별도 xdelta 설치는 필요하지 않습니다. 원본 게임 GD
 
 ![시나리오 제목: 원본·이전 한글 비트맵·바탕체](docs/images/chapter-font-v085.png)
 
-이전 버전 상세 기록: [v0.85](docs/RELEASE-v0.85.md) · [v0.8](docs/RELEASE-v0.8.md) · [v0.75](docs/RELEASE-v0.75.md)
+이전 버전 상세 기록: [v0.9](docs/RELEASE-v0.9.md) · [v0.85](docs/RELEASE-v0.85.md) · [v0.8](docs/RELEASE-v0.8.md) · [v0.75](docs/RELEASE-v0.75.md)
 
 ## 실제 실행 스크린샷
 
-아래 **13장**은 이전 v0.25~v0.29 및 v0.75 검수 때 촬영한 실제 에뮬레이터 출력입니다.
-현재 v0.9를 새로 실행한 캡처로 표시하지 않습니다. 변경한 각성·종료 문구는 위의 ROM 자산 비교로 제공합니다.
+위의 Demul 캡처 2장과 아래의 기존 실행 캡처 13장, 총 **15장**을 제공합니다. 아래 13장은 이전 v0.25~v0.29 및 v0.75 검수 때 촬영했으며 기존 빌드 출처를 유지합니다. 각성·종료 문구는 ROM 자산 비교로 제공합니다.
 각 캡처의 실제 빌드·해시는 [스크린샷 출처](docs/screenshot-provenance.json)에 기록했습니다.
 
 | 추가 콘텐츠 메뉴 | 사전·인물·줄거리 |
@@ -112,7 +129,7 @@ Python이나 별도 xdelta 설치는 필요하지 않습니다. 원본 게임 GD
 - Vol.1 폴더와 별도 Python 도구가 없는 환경의 **편집기 EXE가 동일한 최종 트랙**을 만들었습니다.
 - 새 **패처 EXE 하나만** 분리한 상태에서 원본 GDI에 적용했습니다. 결과 GDI와 세 트랙의 전체 해시가 검증본과 같습니다.
 
-현재 v0.9의 새 부팅·각성 장면 재진행, 실기 구동, 7·8장과 엔딩까지의 완주 검증은 하지 않았습니다.
+현재 게임 데이터의 Demul 새 부팅·한글 오프닝을 확인했습니다. 타이틀·메뉴 조작, 각성 장면 재진행, 실기 구동, 7·8장과 엔딩까지의 완주 검증은 하지 않았습니다.
 기존 정상 진행의 전투·획득·VMU 저장/불러오기·상점 구매·브라우저 조작 검증 기록을 유지합니다.
 오프닝 전체 디코딩·타이밍·원래 음성은 검사했으며 30개 자막 각각의 실제 재생은 추가 확인 범위입니다.
 공식 타사 홍보 로고·저작권·기술 표기와 장식 그림은 유지했습니다. 엔딩 인명 4건은 임시 독음으로 기록했습니다.
@@ -121,7 +138,7 @@ Python이나 별도 xdelta 설치는 필요하지 않습니다. 원본 게임 GD
 
 ## SHA-256
 
-| 파일 | 원본 SHA-256 | v0.9 적용 후 SHA-256 |
+| 파일 | 원본 SHA-256 | v1.0 적용 후 SHA-256 |
 | --- | --- | --- |
 | `track01.bin` | `e100c442c927b313e282aa2a34659bc3aeae5f27cf173640c2a9bd913d2b8499` | `e100c442c927b313e282aa2a34659bc3aeae5f27cf173640c2a9bd913d2b8499` |
 | `track02.raw` | `cd7c82d88f21e4ebb32a94c65f15f625df871c933d6d78cbf85c671778a6ffca` | `cd7c82d88f21e4ebb32a94c65f15f625df871c933d6d78cbf85c671778a6ffca` |
@@ -129,14 +146,14 @@ Python이나 별도 xdelta 설치는 필요하지 않습니다. 원본 게임 GD
 
 출력 GDI SHA-256: `025516557d49e1835e7eb8571e09244b64db190cf3981ead555c54b1924ca19f`
 
-패처 EXE SHA-256: `ed42ca7818e88394ce442acc4bf5ba8f59f297aa5334b938080f76aba8ca5e0c`
+패처 EXE SHA-256: `36325bdf269b3d120c2a0ad795b547086009ff0286c996e78516b18bc1d96120`
 
 패치 데이터 SHA-256: `69ef13835f7e1ef2ce9048690d4f0266da6a1f9a4faf9220d3d42e039571ae77`
 
-[전체 해시·크기](hashes.json) · [해시 설명](docs/HASHES.md) · [배포 파일 체크섬](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v0.9/SHA256SUMS-v0.9.txt)
+[전체 해시·크기](hashes.json) · [해시 설명](docs/HASHES.md) · [배포 파일 체크섬](https://github.com/OldManCraveGuitars-bit/DC-El-Dorado-Gate-Volume-3-Kr/releases/download/v1.0/SHA256SUMS-v1.0.txt)
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\DC-El-Dorado-Gate-Volume-3-Kr-v0.9-Patcher.exe
+Get-FileHash -Algorithm SHA256 .\DC-El-Dorado-Gate-Volume-3-Kr-v1.0-Patcher.exe
 ```
 
 ## 패처 소스와 라이선스

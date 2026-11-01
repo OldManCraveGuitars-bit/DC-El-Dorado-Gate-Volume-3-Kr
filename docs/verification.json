@@ -1,5 +1,5 @@
 {
-  "public_version": "v0.9",
+  "public_version": "v1.0",
   "internal_build": "v0.31",
   "applied_translation_records": 17200,
   "applied_by_storage": {
@@ -79,11 +79,11 @@
   "original_collection_counts_and_item_stats_preserved": true,
   "native_ending_playback_verified": false,
   "credit_names_with_provisional_readings": 4,
-  "byte_identical_internal_GDI_cold_boot_verified": false,
+  "byte_identical_internal_GDI_cold_boot_verified": true,
   "editor_frozen_full_track_reproduction_last_verified_build": "v0.31",
   "editor_current_data_frozen_UI_verified": true,
   "prior_release_cold_boot_verified": "v0.8",
-  "current_release_native_runtime_verified": false,
+  "current_release_native_runtime_verified": true,
   "changed_chapter_title_sprites": 2,
   "chapter_title_font": "BatangChe",
   "status_badge_pixels_match_actual_Vol1": 9,
@@ -97,5 +97,10 @@
   "prior_asset_files_unchanged_since_v085": 59,
   "source_ROM_and_game_stats_preserved": true,
   "changed_translation_records_since_v085": 6,
-  "historical_v08_corrected_text_records": 138
+  "historical_v08_corrected_text_records": 138,
+  "release_status": "비공식 한글화 1.0 정식 버전",
+  "Demul_original_and_Korean_boot_verified": true,
+  "Demul_opening_subtitles_verified": true,
+  "Demul_title_menu_interaction_verified": false,
+  "game_data_byte_identical_to_public_v09": true
 }
